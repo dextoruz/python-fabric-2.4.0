@@ -15,7 +15,11 @@ _`   pip install -U fabric`_   /// for update
 
 
 ### Note:
-If your task has __Parameters__, please set it by **DEFAULT VALUES**, Because when you'll execute
-multiple tasks, and anyone of it has parameters( which is __NOT__ set as DEFAULT VALUES), then the
-coming task will become __STRING__ and use as parameter of this task. The results will not show as you
-expected.
+If your task has parameters, please set it with DEFAULT VALUES or you must pass arguments to this function. Otherwise, it throws an error,
+
+       __SyntaxError: non-default argument follows default argument__
+
+ or, if it doesn't throw any error, it has two scenarios:
+
+    You executed multiple tasks, and anyone of it had parameters( which were NOT set as DEFAULT VALUES), so then the coming task will become STRING and use as parameter of this task. The results you've seen are not that as you expected.
+    Jeff Forcier has fixed this bug. 
