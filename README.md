@@ -22,7 +22,7 @@ For checking the version and on-line reference manual;
 
 After installation, create ***fabfile.py*** in your current directory and write your jobs/tasks there, and for execution:
 
-`    __fab -l__            `      __///shows list of available tasks__
+*`    fab -l           `*      __///shows list of available tasks__
 
 `    fab task1      `         ///task1 = name of your task
 
@@ -34,5 +34,5 @@ After installation, create ***fabfile.py*** in your current directory and write 
 ## Note:
 If your task has parameters, please set it by **DEFAULT VALUES**, Because when you'll execute
 multiple tasks, and anyone of it has parameters( which is __NOT__ set as DEFAULT VALUES), then the
-coming task will become STRING and use as parameter of this task. The results will not show as you
+coming task will become __STRING__ and use as parameter of this task. The results will not show as you
 expected.
