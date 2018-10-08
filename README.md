@@ -4,7 +4,7 @@ Brief introduction [***here***](https://linxnerd.wordpress.com/2018/10/10/python
 
 # Installation
 
-    ***sudo apt install fabric***
+    **sudo** apt install **fabric**
 
     ***sudo apt install update***
 
@@ -32,4 +32,7 @@ After installation, create ***fabfile.py*** in your current directory and write 
 
 
 ##    Note:
-###       If your task has parameters, please set it by ***DEFAULT*** **VALUES**, Because when you'll execute multiple   tasks, and anyone of it has parameters( which is ***NOT*** set as DEFAULT VALUES), then the coming task will become ***STRING*** and use as parameter of this task. The results will not show as you expected.
+       If your task has parameters, please set it by ***DEFAULT*** **VALUES**, Because when you'll execute
+       multiple   tasks, and anyone of it has parameters( which is ***NOT*** set as DEFAULT VALUES), then the
+       coming task will become ***STRING*** and use as parameter of this task. The results will not show as you
+       expected.
