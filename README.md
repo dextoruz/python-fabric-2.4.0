@@ -4,9 +4,9 @@ Brief introduction; [Presentation video](https://linxnerd.wordpress.com/2018/10/
 
 ## Installation
 
-**    sudo apt install fabric**
+*    sudo apt install fabric
 
-    sudo apt install update
+    sudo apt install update*
 
 or the best way;
 
