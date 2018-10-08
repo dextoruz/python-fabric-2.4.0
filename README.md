@@ -17,7 +17,7 @@ _`   pip install -U fabric`_   /// for update
 ### Note:
 If your task has parameters, please set it with DEFAULT VALUES or you must pass arguments to this function. Otherwise, it throws an error,
 
-  __SyntaxError: non-default argument follows default argument__
+   __SyntaxError: non-default argument follows default argument__
 
  or, if it doesn't throw any error, it has two scenarios:
 
