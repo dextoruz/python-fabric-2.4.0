@@ -4,7 +4,7 @@ Brief introduction; [Presentation video](https://linxnerd.wordpress.com/2018/10/
 
 ## Installation
 
-__`   sudo apt install fabric`__
+_`   sudo apt install fabric`_
 
 __`   sudo apt install update`__
 
@@ -12,13 +12,13 @@ or the best way;
 
 __`   pip install fabric`__
 
-__`    pip install -U fabric`__    /// for update
+__`   pip install -U fabric`__    /// for update
 
 For checking the version and on-line reference manual
 
 __`fab --version'__
 
-    __`man fab`__
+__`man fab`__
 
 After installation, create ***fabfile.py*** in your current directory and write your jobs/tasks there, and for execution:
 
