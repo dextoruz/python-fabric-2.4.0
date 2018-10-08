@@ -1,12 +1,12 @@
 # Python Fabric 2.4.0
 Implementation of python fabric with SSH example.
-Brief introduction in [Presentation video](https://linxnerd.wordpress.com/2018/10/10/python-fabric-2.4.0/)link.
+Brief introduction in [Presentation video](https://linxnerd.wordpress.com/2018/10/10/python-fabric-2.4.0/) link.
 
-# Installation
+## Installation
 
     sudo apt install fabric
 
-      sudo apt install update
+    *sudo apt install update*
 
 or the best way;
 
@@ -20,15 +20,15 @@ For checking the version and on-line reference manual;
 
     man fab
 
-After installation, create fabfile.py in your current directory and write your jobs/tasks there, and for execution:
+After installation, create ***fabfile.py*** in your current directory and write your jobs/tasks there, and for execution:
 
-    fab -l                           ///shows list of available tasks
+    fab -l                  ///shows list of available tasks
 
-    fab task1                  ///task1 = name of your task
+    fab task1               ///task1 = name of your task
 
-    fab task1 admin      /// admin = parameter of task1
+    fab task1 admin         /// admin = parameter of task1
 
-    fab task1 task2 ...    /// multiple tasks execution
+    fab task1 task2 ...     /// multiple tasks execution
 
 
 ##    Note:
