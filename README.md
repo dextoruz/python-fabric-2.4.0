@@ -1,10 +1,10 @@
 # Python Fabric 2.4.0
 Implementation of python fabric with SSH example.
-Brief introduction in [Presentation video](https://linxnerd.wordpress.com/2018/10/10/python-fabric-2.4.0/) link.
+Brief introduction; [Presentation video](https://linxnerd.wordpress.com/2018/10/10/python-fabric-2.4.0/) link.
 
 ## Installation
 
-***    sudo apt install fabric***
+**    sudo apt install fabric**
 
     sudo apt install update
 
