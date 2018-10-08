@@ -4,9 +4,9 @@ Brief introduction in [Presentation video](https://linxnerd.wordpress.com/2018/1
 
 ## Installation
 
-    sudo apt install fabric
+***    sudo apt install fabric***
 
-    *sudo apt install update*
+    sudo apt install update
 
 or the best way;
 
@@ -31,7 +31,7 @@ After installation, create ***fabfile.py*** in your current directory and write 
     fab task1 task2 ...     /// multiple tasks execution
 
 
-##    Note:
+## Note:
        If your task has parameters, please set it by DEFAULT VALUES, Because when you'll execute
        multiple   tasks, and anyone of it has parameters( which is NOT set as DEFAULT VALUES), then the
        coming task will become STRING and use as parameter of this task. The results will not show as you
