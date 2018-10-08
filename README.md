@@ -4,31 +4,31 @@ Brief introduction; [Presentation video](https://linxnerd.wordpress.com/2018/10/
 
 ## Installation
 
-*    sudo apt install fabric*
+`   sudo apt install fabric
 
-`    sudo apt install update`
+    sudo apt install update`
 
 or the best way;
 
-    pip install fabric
+`   pip install fabric
 
-    pip install -U fabric    /// for update
+    pip install -U fabric`    /// for update
 
 For checking the version and on-line reference manual;
 
-    fab --version
+`    fab --version
 
-    man fab
+     man fab`
 
 After installation, create ***fabfile.py*** in your current directory and write your jobs/tasks there, and for execution:
 
-    fab -l                  ///shows list of available tasks
+`    fab -l            `      __///shows list of available tasks__
 
-    fab task1               ///task1 = name of your task
+`    fab task1      `         ///task1 = name of your task
 
-    fab task1 admin         /// admin = parameter of task1
+`    fab task1 admin `        /// admin = parameter of task1
 
-    fab task1 task2 ...     /// multiple tasks execution
+`    fab task1 task2 ...`     /// multiple tasks execution
 
 
 ## Note:
