@@ -22,4 +22,4 @@ If your task has parameters, please set it with DEFAULT VALUES or you must pass 
  or, if it doesn't throw any error, it has two scenarios:
 
    * You executed multiple tasks, and anyone of it had parameters( which were NOT set as DEFAULT VALUES), so then the coming task will become STRING and use as parameter of this task. The results you've seen are not that as you expected.
-   * Jeff Forcier has fixed this bug. 
+   * [Jeff Forcier](http://bitprophet.org/) has fixed this bug. 
