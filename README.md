@@ -4,7 +4,7 @@ Brief introduction [**here**](https://linxnerd.wordpress.com/2018/10/10/python-f
 
 # Installation
 
-    **sudo** apt install fabric
+    sudo apt install fabric
 
     **sudo apt install update**
 
