@@ -22,7 +22,7 @@ For checking the version and on-line reference manual;
 
 After installation, create ***fabfile.py*** in your current directory and write your jobs/tasks there, and for execution:
 
-*`    fab -l           `*      __///shows list of available tasks__
+__`    fab -l           `__      __///shows list of available tasks__
 
 `    fab task1      `         ///task1 = name of your task
 
