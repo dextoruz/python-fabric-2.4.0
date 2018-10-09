@@ -1,0 +1,4 @@
+#!/bin/bash
+#term=`gnome-terminal`
+cd ~/Desktop/fabric
+fab hello
