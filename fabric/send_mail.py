@@ -84,7 +84,7 @@ def attachFile():
 		path = os.path.join(os.getcwd(), filename)
 		logging.debug("path to file : {}".format(path))
 
-		send_mail("p176071@nu.edu.pk", "philosophy1129", "linxnerd@outlook.com", filename, path, sbj="Administration", msg="1. Server1 is not working\n2. Server3 has stopped\n3. Computer No.34 is not restarting\n4. blah blah blah\n")
+		send_mail("sender_email", "sender_password", "receiver_email", filename, path, sbj="Administration", msg="message body\n")
 
 	else:
 		logging.warn("file not found!\nNo further proceedings.")
