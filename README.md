@@ -15,11 +15,11 @@ _`   pip install -U fabric`_   /// for update
 
 
 ### Note:
-If your task has parameters, please set it with DEFAULT VALUES or you must pass arguments to this function. Otherwise, it throws an error,
+If your task has parameters, please set it with DEFAULT VALUES or you must pass arguments to this function. Otherwise, it will throw an error,
 
    __SyntaxError: non-default argument follows default argument__
 
- or, if it doesn't throw any error, it has two scenarios:
+ or, if it doesn't throw any error,then it has two scenarios:
 
-   * You executed multiple tasks, and anyone of it had parameters( which were NOT set as DEFAULT VALUES), so then the coming task will become STRING and use as parameter of this task. The results you've seen are not that as you expected.
+   * You executed multiple tasks, and anyone of it had parameters( which were **NOT** set as **DEFAULT VALUES**), so then the coming task will become **STRING** and use as parameter of this task. The results you've seen are not that as you expected.
    * [Jeff Forcier](http://bitprophet.org/) has fixed this bug. 
