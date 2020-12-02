@@ -1,5 +1,5 @@
 # Python Fabric 2.4.0
-Implementation of python fabric with SSH example(video). [_website_](https://linxnerd.wordpress.com/2018/10/10/python-fabric-2.4.0/) link.
+Implementation of python fabric with SSH example(video). [_website_](https://dextoruz.wordpress.com/2018/10/10/python-fabric-2.4.0/) link.
 
 ### Before run any file:
 You need some changes in ***send_email.py*** file.
